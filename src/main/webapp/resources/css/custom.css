@@ -1,0 +1,32 @@
+/* PC 1024px ~ */
+@media all and (min-width:1024px) {
+	.input-answer {
+		width: 300px !important;
+	}
+	.show-answer {
+		width: 498px !important;
+	}
+	.title {
+		font-size: 26px !important;
+	}
+	.state {
+		font-size: 18px !important;
+	}
+}
+
+/* 태블릿 가로, 태블릿 세로 768px ~ 1023px */
+@media all and (min-width: 768px) and (max-width:1023px) {
+	.title {
+		font-size: 22px;
+	}
+	.state {
+		font-size: 16px !important;
+	}
+}
+
+/* 모바일 가로, 모바일 세로 480px ~ 767px */
+@media all and (max-width: 767px) {
+	.state {
+		font-size: 14px !important;
+	}
+}
